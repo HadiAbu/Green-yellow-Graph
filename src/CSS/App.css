@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #464f4b;
+  min-height: 10vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+p {
+  width: 70%;
+}
+.textareaWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+textarea {
+  border-radius: 5px;
+  background: #8eb484;
+  border: white bold 2px;
+  margin: 10px;
+}
